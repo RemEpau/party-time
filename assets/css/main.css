@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  display: grid;
+  min-block-size: 100vh;
+  place-content: center;
+  background-color: #041019;
+  overflow: hidden;
+}
+
+.party {
+  font-family: "Montserrat";
+  background: linear-gradient(45deg, #3c9ae0, #c0def5);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: 0;
+  padding: 0.5em 1em;
+  border-radius: 100em;
+  cursor: pointer;
+}
+.party:active {
+  background: linear-gradient(45deg, #19649d, #2081c9);
+}
+
+main canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=main.css.map */

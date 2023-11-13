@@ -1,0 +1,34 @@
+$bg-clr: #041019;
+
+body {
+  margin: 0;
+  display: grid;
+  min-block-size: 100vh;
+  place-content: center;
+  background-color: $bg-clr;
+  overflow: hidden;
+}
+
+.party {
+  font-family: 'Montserrat';
+  background: linear-gradient(45deg, lighten($bg-clr, 50%), lighten($bg-clr, 80%));
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: 0;
+  padding: 0.5em 1em;
+  border-radius: 100em;
+  cursor: pointer;
+
+  &:active {
+    background: linear-gradient(45deg, lighten($bg-clr, 30%), lighten($bg-clr, 40%));
+  }
+}
+
+main canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
