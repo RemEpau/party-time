@@ -2,9 +2,6 @@ $bg-clr: #041019;
 
 body {
   margin: 0;
-  display: grid;
-  min-block-size: 100vh;
-  place-content: center;
   background-color: $bg-clr;
   overflow: hidden;
 }
